@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil profesional - Tammy Caizapanta</title>
+    <link rel="stylesheet" href="css/styles.css">
+       <link rel="icon" type="image/png" href="img/pageicon.png">
+</head>
+
+<body>
+
+    <header>
+        <figure>
+            <img src="img/foto_perfil.jpg" alt="Foto de perfil de Tammy Caizapanta" width="250" height="274">
+        </figure>
+        <div>
+            <h1>Tammy Amarilis Caizapanta Muela</h1>
+            <p>Estudiante de Ingeniería de Software</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#intereses">Intereses</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="perfil">
+            <h2>Perfil Profesional</h2>
+            <p id="resumen" class="destacado">
+                Estudiante de Ingeniería de Software apasionada por el desarrollo de aplicaciones móviles y web.
+            </p>
+            <p>
+                Me entusiasma combinar la organización y el diseño para crear soluciones digitales que no solo
+                sean funcionales y eficientes, sino también visualmente atractivas y centradas en la experiencia
+                del usuario. Con sólida base en análisis de requerimientos, lógica de programación y trabajo en
+                equipo.
+            </p>
+            <ul class="datos">
+                <li class="teal"><strong>2</strong> Lenguajes</li>
+                <li class="lila"><strong>5</strong> Herramientas</li>
+                <li class="durazno"><strong>3</strong> Idiomas</li>
+                <li class="rosa"><strong>2</strong> Cursos en curso</li>
+            </ul>
+        </section>
+
+        <section id="formacion">
+            <h2>Formación Académica</h2>
+            <ol>
+                <li>
+                    <strong>Bachillerato en Ciencias</strong><br>
+                    Unidad Educativa Sagrado Corazón de Jesús "Hermanas Bethlemitas"
+                    (<time datetime="2022">2022</time>)
+                </li>
+                <li>
+                    <strong>Ingeniería de Software</strong><br>
+                    Universidad de las Fuerzas Armadas ESPE (En curso — Ciclos avanzados)
+                </li>
+            </ol>
+        </section>
+
+        <section id="cursos">
+            <h2>Cursos y Certificaciones</h2>
+            <ul>
+                <li>
+                    <strong>GCI World</strong><br>
+                    University of Tokyo's Matsuo-Iwasawa Laboratory (En curso)
+                </li>
+                <li>
+                    <strong>Misión Transformación Digital LATAM 2026</strong><br>
+                    ESPE-Innovativa E.P. / Cisco Networking Academy — Inglés para IT (En curso)
+                </li>
+            </ul>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades y Tecnologías</h2>
+            <ul>
+                <li>Lenguajes y programación
+                    <ul>
+                        <li>C++</li>
+                        <li>Python</li>
+                    </ul>
+                </li>
+                <li>Herramientas y entornos
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Visual Studio Code</li>
+                        <li>Visual Studio 2026</li>
+                        <li>Figma (prototipado UI/UX)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="intereses">
+            <h2>Áreas de Interés y Especialización</h2>
+            <ul>
+                <li>Desarrollo de Aplicaciones Móviles y Web</li>
+                <li>Diseño de Experiencia de Usuario (UI/UX)</li>
+                <li>Ingeniería de Requisitos y Gestión de Proyectos</li>
+            </ul>
+        </section>
+
+        <section id="idiomas">
+            <h2>Idiomas</h2>
+            <table>
+                <tr>
+                    <th>Idioma</th>
+                    <th>Nivel</th>
+                    <th>Certificación</th>
+                </tr>
+                <tr>
+                    <td>Español</td>
+                    <td>Nativo</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Inglés</td>
+                    <td>Intermedio / Avanzado</td>
+                    <td>KOE, 2022</td>
+                </tr>
+                <tr>
+                    <td>Coreano</td>
+                    <td>Básico / Introductorio</td>
+                    <td>King Sejong Institute (En curso)</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de contacto</h2>
+            <form action="index.html" method="get">
+                <p>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
+                </p>
+
+                <p>
+                    <label for="fecha">Fecha de nacimiento:</label><br>
+                    <input type="date" id="fecha" name="fecha" required>
+                </p>
+
+                <p>
+                    Modalidad:<br>
+                    <input type="radio" id="matutina" name="modalidad" value="matutina" required>
+                    <label for="matutina" class="opcion">Matutina</label>
+                    <input type="radio" id="vespertina" name="modalidad" value="vespertina">
+                    <label for="vespertina" class="opcion">Vespertina</label>
+                </p>
+
+                <p>
+                    Áreas de interés:<br>
+                    <input type="checkbox" id="web" name="intereses" value="Desarrollo web">
+                    <label for="web" class="opcion">Desarrollo web</label>
+                    <input type="checkbox" id="movil" name="intereses" value="Aplicaciones móviles">
+                    <label for="movil" class="opcion">Aplicaciones móviles</label>
+                    <input type="checkbox" id="diseno" name="intereses" value="Diseño UI/UX">
+                    <label for="diseno" class="opcion">Diseño UI/UX</label>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" maxlength="300"
+                        placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </p>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Enlaces de interés</h2>
+        <address>
+            <a href="https://www.linkedin.com/in/tammycaizapanta/" target="_blank" rel="noopener noreferrer">
+                <img src="img/linkedin.png" alt="LinkedIn" width="30" height="30">
+                Mi LinkedIn
+            </a>
+            <a href="https://github.com/tammycaizapanta" target="_blank" rel="noopener noreferrer">
+                <img src="img/github.png" alt="GitHub" width="30" height="30">
+                Mi GitHub
+            </a>
+            <a href="https://instagram.com/tammy.thv" target="_blank" rel="noopener noreferrer">
+                <img src="img/ig.png" alt="Instagram" width="30" height="30">
+                Mi Instagram
+            </a>
+        </address>
+    </footer>
+
+</body>
+
+</html>
