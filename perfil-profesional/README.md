@@ -70,7 +70,8 @@ docker run -d --name perfil --rm -p 8083:80 tammycaizapanta/perfil-profesional:1
 
 ## Enlace a Docker Hub
 
-[https://hub.docker.com/r/tammycaizapanta/perfil-profesional](https://hub.docker.com/r/tammycaizapanta/perfil-profesional)
+[https://hub.docker.com/r/tammycaizapanta/imagen]
+(https://hub.docker.com/r/tammycaizapanta/imagen)
 
 ## Autora
 
