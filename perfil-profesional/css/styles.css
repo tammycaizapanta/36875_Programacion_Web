@@ -33,7 +33,6 @@ header img {
 header h1 { margin: 0 0 4px; font-size: 2rem; }
 header p { margin: 0; color: #7c7c88; }
 
-/* Menú estilo cristal */
 nav {
     position: sticky;
     top: 12px;
@@ -112,11 +111,10 @@ section li { margin-bottom: 8px; }
 
 .datos strong { display: block; font-size: 1.9rem; font-weight: 500; color: #3a3a42; }
 
-/* Cuadros de colorcito */
-.teal { background: #dff0ee; }
-.lila { background: #ebe8f7; }
-.durazno { background: #f9ebd3; }
-.rosa { background: #f7e3e4; }
+.teal { background: #dff0ee; text-align: center; }
+.lila { background: #ebe8f7; text-align: center; } 
+.durazno { background: #f9ebd3; text-align: center; }
+.rosa { background: #f7e3e4; text-align: center; }
 
 p { color: #6a6a74; }
 
@@ -163,6 +161,28 @@ footer a {
     border-radius: 999px;
     color: #5f6068;
     text-decoration: none;
+}
+
+.card {
+    width: 320px;
+    padding: 24px;
+    margin: 20px auto;
+    border: 1px solid #efe6d7;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background: #f7f3ec;
+    text-align: center;
+}
+
+.card-avatar {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 12px;
+    border-radius: 80%;
+    background: #f7e3e4;
+    color: #1f4d49;
+    font-size: 1.4rem;
+    line-height: 72px;
 }
 
 @media (max-width: 650px) {
