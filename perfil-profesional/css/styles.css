@@ -164,6 +164,7 @@ footer a {
 }
 
 .card {
+    position: relative;
     width: 320px;
     padding: 24px;
     margin: 20px auto;
@@ -174,7 +175,7 @@ footer a {
     text-align: center;
 }
 
-.card-avatar {
+.avatar {
     width: 72px;
     height: 72px;
     margin: 0 auto 12px;
@@ -183,6 +184,12 @@ footer a {
     color: #1f4d49;
     font-size: 1.4rem;
     line-height: 72px;
+}
+
+.estado {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 @media (max-width: 650px) {
