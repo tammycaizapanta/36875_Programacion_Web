@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innova ESPE 2026</title>
+    <link rel="icon" type="image/png" href="assets/imagenes/logo-innovativa.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="assets/imagenes/logo-innovativa.png" alt="Logotipo ESPE Innovativa" width="200" height="200">
+            <span>Innova ESPE 2026</span>
+        </div>
+        <nav class="nav-menu">
+            <a href="#bienvenida">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#cronograma">Cronograma</a>
+            <a href="#multimedia">Multimedia</a>
+            <a href="#inscripcion">Inscripción</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bienvenida" class="hero-section">
+            <div class="hero-content">
+                <h1>Bienvenido a Innova ESPE 2026</h1>
+                <p>El evento tecnológico más importante para la presentación de proyectos e Innovación universitaria.</p>
+                <p><strong>Fecha:</strong> 28 de Octubre, 2026 | <strong>Lugar:</strong> Campus Universitario</p>
+                <a href="#inscripcion" class="btn-primary">Inscribirme</a>
+            </div>
+            <img src="assets/imagenes/banner-espe.jpg" alt="Imagen representativa del evento" class="hero-img">
+        </section>
+
+        <section id="proyectos" class="projects-section">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="assets/imagenes/proyecto-agrotech.jpg" alt="AgroTech">
+                    <h3>AgroTech</h3>
+                    <p>Monitoreo de cultivos mediante sensores IoT.</p>
+                    <span class="category">Proyecto tecnológico</span>
+                </article>
+                <article class="project-card">
+                    <img src="assets/imagenes/proyecto-emprendimiento.jpeg" alt="HealthySweetness">
+                    <h3>Healthy Sweetness</h3>
+                    <p>Gelatinas para personas con diabetes con diseño de flores.</p>
+                    <span class="category">Emprendimiento</span>
+                </article>
+                <article class="project-card">
+                    <img src="assets/imagenes/proyecto-robotica.jpg" alt="RoboBot">
+                    <h3>RoboBot</h3>
+                    <p>Asistente robótico para educación básica.</p>
+                    <span class="category">Iniciativa de Innovación en Robótica</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="cronograma" class="info-section">
+            <h2>Cronograma del Evento</h2>
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Actividad</th>
+                        <th>Horario</th>
+                        <th>Ubicación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Inauguración</td>
+                        <td>09:00 - 10:00</td>
+                        <td>Auditorio Principal</td>
+                    </tr>
+                    <tr>
+                        <td>Exposición de Proyectos</td>
+                        <td>10:15 - 13:00</td>
+                        <td>Plaza Central</td>
+                    </tr>
+                    <tr>
+                        <td>Conferencia IA Generativa</td>
+                        <td>14:30 - 16:00</td>
+                        <td>Salon Interactivo</td>
+                    </tr>
+                    <tr>
+                        <td>Premiación y Clausura</td>
+                        <td>16:30 - 17:30</td>
+                        <td>Biblioteca Segovia</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Pasos para Participar</h3>
+            <ol>
+                <li>Completar el formulario de inscripción en línea.</li>
+                <li>Recibir la confirmación en su correo electrónico.</li>
+                <li>Asistir al evento el día programado con su credencial.</li>
+            </ol>
+
+            <h3>Beneficios del Evento</h3>
+            <ul>
+                <li>Certificado de participación avalado por la ESPE.</li>
+                <li>Networking con expertos de la industria tecnológica.</li>
+                <li>Acceso a mentorías para emprendimientos.</li>
+            </ul>
+        </section>
+
+        <section id="multimedia" class="multimedia-section">
+            <h2>Multimedia y Ubicación</h2>
+            <div class="media-container">
+                <video controls preload="metadata" poster="assets/imagenes/video-poster.jpg">
+                    <source src="assets/video/innova-espe-promo.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+                <iframe title="Mapa de la ubicación del evento" src="https://www.openstreetmap.org/export/embed.html?bbox=-78.4500%2C-0.3250%2C-78.4300%2C-0.3100&amp;layer=mapnik" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section id="inscripcion" class="form-section">
+            <h2>Formulario de Inscripción</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Nombres y Apellidos:</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required minlength="3" maxlength="100">
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" autocomplete="email" placeholder="usuario@espe.edu.ec" required>
+
+                <label for="telefono">Número Telefónico:</label>
+                <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{10}" maxlength="10" title="Ingrese 10 dígitos, sin espacios ni guiones" placeholder="0991234567">
+
+                <label for="carrera">Carrera Universitaria:</label>
+                <select id="carrera" name="carrera" required>
+                    <option value="">Seleccione...</option>
+                    <option value="software">Ingeniería de Software</option>
+                    <option value="sistemas">Ingeniería en Tecnologías de la Información</option>
+                    <option value="ti">Otras</option>
+                </select>
+
+                <fieldset>
+                    <legend>Modalidad de Participación:</legend>
+                    <label><input type="radio" name="modalidad" value="presencial" required> Presencial</label>
+                    <label><input type="radio" name="modalidad" value="virtual"> Virtual</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Áreas de Interés:</legend>
+                    <label><input type="checkbox" name="interes" value="ia"> Inteligencia Artificial</label>
+                    <label><input type="checkbox" name="interes" value="desarrollo"> Desarrollo Web/Móvil</label>
+                    <label><input type="checkbox" name="interes" value="robotica"> Robótica</label>
+                </fieldset>
+
+                <label for="comentarios">Comentarios adicionales:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" maxlength="300"></textarea>
+
+                <label class="checkbox-label">
+                    <input type="checkbox" name="condiciones" required> Acepto las condiciones de participación.
+                </label>
+
+                <button type="submit" class="btn-submit">Enviar Inscripción</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Innova ESPE. Todos los derechos reservados.</p>
+        <p>Contacto: tacaizapanta@innovaespe.edu.ec | Teléfono: 0962540546 </p>
+    </footer>
+
+</body>
+</html>
